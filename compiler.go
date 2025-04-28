@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 var usrinput string
+var varcomf bool = false
 
 func start() {
 	fmt.Println("miku-go")
@@ -13,8 +14,15 @@ func start() {
 
 func read() {
 	for i := 0; i < len(usrinput); i++ {
-		if usrinput[i] == `"` {
-
+		if varcomf == true {
+			if string(usrinput[i]) == "*" {
+				varcomf := false
+			} else {
+				fmt.Print(usrinput[i])
+			}
+		}
+		if string(usrinput[i]) == "*" {
+			varcomf := true
 		}
 	}
 }
@@ -23,4 +31,5 @@ func main() {
 	start()
 	fmt.Scan(&usrinput)
 	fmt.Println("===============")
+	read()
 }
