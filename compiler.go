@@ -12,12 +12,15 @@ func start() {
 }
 
 func read() {
-	for i := 0; i < len(mystr); i++ {
-		
+	for i := 0; i < len(usrinput); i++ {
+		if usrinput[i] == `"` {
+
+		}
 	}
 }
 
 func main() {
 	start()
 	fmt.Scan(&usrinput)
+	fmt.Println("===============")
 }
