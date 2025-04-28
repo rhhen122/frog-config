@@ -4,6 +4,7 @@ import "fmt"
 
 var usrinput string
 var varcomf bool = false
+var dead int
 
 func start() {
 	fmt.Println("miku-go")
@@ -17,19 +18,23 @@ func read() {
 		if varcomf == true {
 			if string(usrinput[i]) == "\"" {
 				// The problem is that this pos code wont change the bool to false for some reason
-				varcomf := false
+				varcomf == false
 			} else {
 				fmt.Print(usrinput[i])
 			}
 		}
 		if string(usrinput[i]) == "\"" {
 			// same here
-			varcomf := true
+			varcomf == true
 		}
 	}
 }
 
 func main() {
+	varcomf := false
+	if varcomf != true {
+		dead++
+	}
 	start()
 	fmt.Scan(&usrinput)
 	fmt.Println("===============")
