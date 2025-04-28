@@ -1,5 +1,5 @@
 <div align="center">
-<img src=".github/frog-logo.png">
+<img src=".github/frog-logo.png" height="100">
 
 # Frog!
 ## A beautiful config file format.
