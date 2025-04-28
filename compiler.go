@@ -16,12 +16,14 @@ func read() {
 	for i := 0; i < len(usrinput); i++ {
 		if varcomf == true {
 			if string(usrinput[i]) == "*" {
+				// The problem is that this pos code wont change the bool to false for some reason
 				varcomf := false
 			} else {
 				fmt.Print(usrinput[i])
 			}
 		}
 		if string(usrinput[i]) == "*" {
+			// same here
 			varcomf := true
 		}
 	}
