@@ -62,3 +62,5 @@ Returns False:
 "Variable_name_here" = "A String"       ; A String
 "Variable_name_here" = 5*5+2            ; A Int
 ```
+
+<a href="ad_syntax.md">Next -></a>

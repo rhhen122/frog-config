@@ -10,3 +10,4 @@
 
 ### Docs
 #### <a href="/docs/syntax.md">Basic Syntax</a>
+#### <a href="/docs/ad_syntax.md">Advanced Syntax</a>
