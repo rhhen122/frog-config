@@ -1,0 +1,65 @@
+<div align="center">
+    <img src="/media/frog-icon.png" height="100">
+    <h1>Frog!</h1>
+    <h2>A beautiful config file format.</h2>
+    <h3>Basic Syntax</h3>
+    <a href="http://vimp.rhhen.xyz/Licenses/lookinggood/lice/LICENSE.html"><img src="https://badgen.net/static/license/VIMPPDL%201.0.2/black"></a>
+    |
+    <a href="http://go.dev/"><img src="http://badgen.net/static/Go/1.24?icon=https%3A%2F%2Fgo.dev%2Fblog%2Fgo-brand%2FGo-Logo%2FSVG%2FGo-Logo_White.svg"></a>
+</div>
+
+<h3>Comments</h3>
+First we need to know how to make comments:
+<pre>
+; This is a comment
+; We can comment lines we do not want active like so:
+"cond" = true
+; "other_cond" = true
+</pre>
+<h3>Types</h3>
+<pre>
+; There are 3 types of values
+; String, Int & Bool
+"bool" = true           ; A Bool can equal either 'True' or 'False', Bools have special feature which we will get to in a second.
+"string" = "Some Text"  ; A String Stores a series of letters
+"int" = 5               ; A Int Store a number, it can also store an equation like: 2*2, which when put through the compiler comes out as: 4
+</pre>
+<h3>Bools (Verb Engine)</h3>
+<pre>
+; Bools have a feature called 'The Verb Engine'
+; Which means this is a valid Bool:
+"bool" = ha ha fuck yes                 ; This will return 'True' when span through the compiler
+"other_bool" = ha ha fuck nah bruh      ; This will return 'False' when span through the compiler
+</pre>
+Here is a list of all <code>Verb Engine</code> Keywords:
+
+Does Nothing:
+<code>bruh</code>
+<code>fuck</code>
+<code>shit</code>
+<code>ha</code>
+<code>haha</code>
+<code>he</code>
+<code>hehe</code>
+
+Returns True:
+<code>y</code>
+<code>yes</code>
+<code>yup</code>
+<code>yeah</code>
+
+Returns False:
+<code>n</code>
+<code>no</code>
+<code>nope</code>
+<code>nah</code>
+
+<h3>Formating</h3>
+<pre>
+; Formating Works like this:
+"Variable_name_here" = true             ; A Bool
+"Variable_name_here" = "A String"       ; A String
+"Variable_name_here" = 5*5+2            ; A Int
+</pre>
+
+<a href="ad_syntax.html">Next -></a>
