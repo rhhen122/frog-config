@@ -10,6 +10,7 @@
 </div>
 
 ### Web Docs
+#### <a href="http://frog.rhhen.xyz/docs/web/">Main Page</a>
 #### <a href="http://frog.rhhen.xyz/docs/syntax.html">Basic Syntax</a>
 #### <a href="http://frog.rhhen.xyz/docs/ad_syntax.html">Advanced Syntax</a>
 
