@@ -1,2 +1,14 @@
+#  ___   ___   ___   ___   ___  .   |  ___   __   ___
+# /   | / | \ / | \ / | \ /   | |\  | /   \ |  \ |   \
+# |       |     |     |   |     | \ | |   | |__/ |__
+# |  /\   |     |     |   |  /\ |  \| |   | | \  |
+# \___/ \_l_/   l   \_l_/ \___/ |   ' \___/ |  | l___/
+
+# Dont want you to see the ToDo list.
 /ToDo
+
+# Weird file.
 /.DS_Store
+
+# Dont need this in the compiler directory
+/compiler/miku
