@@ -35,4 +35,5 @@ And another here`
 ; We can split lines like so:
 "string" = "our string" \& "int" = 5
 ```
-<a href="ad_syntax.md">Back <-</a>
+<a href="syntax.md">Back <-</a>
+<a href="func.md">Next -></a>

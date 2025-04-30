@@ -44,12 +44,14 @@ Does Nothing:
 `hehe`
 
 Returns True:
+`true`
 `y`
 `yes`
 `yup`
 `yeah`
 
 Returns False:
+`true`
 `n`
 `no`
 `nope`
