@@ -13,7 +13,9 @@
 #### <a href="http://frog.rhhen.xyz/docs/web/">Main Page</a>
 #### <a href="http://frog.rhhen.xyz/docs/syntax.html">Basic Syntax</a>
 #### <a href="http://frog.rhhen.xyz/docs/ad_syntax.html">Advanced Syntax</a>
+#### <a href="http://frog.rhhen.xyz/docs/func.html">Functions</a>
 
 ### Docs
 #### <a href="/docs/syntax.md">Basic Syntax</a>
 #### <a href="/docs/ad_syntax.md">Advanced Syntax</a>
+#### <a href="/docs/func.md">Functions</a>
